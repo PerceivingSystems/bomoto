@@ -51,7 +51,7 @@ Convert parameters from one body model to another.
 ### Fitting parameters to meshes (aka `parms_for`)
 Given a set of meshes, fit body model parameters to them.
 ##### Meshes to SMPL-X
-- Modify `examples/smpl2smplx/cfg.yaml`. In particular:
+- Modify `examples/parms_for_smplx/cfg.yaml`. In particular:
   - replace `output.body_model.path` with the path to your SMPL-X neutral model
 - Run the following commands
    ```bash
